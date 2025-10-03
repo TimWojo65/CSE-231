@@ -1,0 +1,33 @@
+
+# --- Banner (read-only) ---
+banner = r'''
+    TRAFFIC LIGHT FSM
+    ------------------
+        +-----------+
+        |   [RED]   |
+        | [YELLOW]  |
+        |  [GREEN]  |
+        +-----------+
+    Pedestrian Button + Timer
+    -----------------
+'''
+
+#------- states------
+"INIT"
+"GREEN"
+"GREEN_WAIT"
+"YELLOW"
+"RED"
+"FLASH_YELLOW"
+"SINK"
+
+# use these strings in your input and print statements.
+":~Enter a sequence (t,e,p,r,w). Empty line = quit ~:"
+"Error: sequence must be at least 3 characters.\n"
+"You entered: {}"
+"Invalid sequence -- ended in SINK.\n"
+"Valid sequence -- final state: {}\n"
+"Goodbye!"
+
+
+

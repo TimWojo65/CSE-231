@@ -1,0 +1,6 @@
+GamerTag        Kills           Matches Played  Damage Dealt    
+PlayerOne       15              3               1200            
+SharpShooter    20              5               2100            
+SniperQueen     10              4               1500            
+Ghost           8               3               900             
+WarriorX        25              6               2500            

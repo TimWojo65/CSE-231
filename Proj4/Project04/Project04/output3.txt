@@ -1,0 +1,35 @@
+
+    TRAFFIC LIGHT FSM
+    -----------------
+       +-----------+
+       |   [RED]   |
+       | [YELLOW]  |
+       |  [GREEN]  |
+       +-----------+
+    Pedestrian Button + Timer
+    -----------------
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:te
+Error: sequence must be at least 3 characters.
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:wtt
+You entered: wtt
+Valid sequence -- final state: YELLOW
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:p
+Error: sequence must be at least 3 characters.
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:r
+Error: sequence must be at least 3 characters.
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:ttt
+You entered: ttt
+Valid sequence -- final state: RED
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:x
+Error: sequence must be at least 3 characters.
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:tttxptt
+You entered: tttxptt
+Invalid sequence -- ended in SINK.
+

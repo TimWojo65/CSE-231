@@ -1,0 +1,25 @@
+
+    TRAFFIC LIGHT FSM
+    -----------------
+       +-----------+
+       |   [RED]   |
+       | [YELLOW]  |
+       |  [GREEN]  |
+       +-----------+
+    Pedestrian Button + Timer
+    -----------------
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:twt
+You entered: twt
+Valid sequence -- final state: YELLOW
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:ttt
+You entered: ttt
+Valid sequence -- final state: RED
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:tewtttt
+You entered: tewtttt
+Valid sequence -- final state: YELLOW
+
+:~Enter a sequence (t,e,p,r,w). Empty line = quit ~:
+Goodbye!
