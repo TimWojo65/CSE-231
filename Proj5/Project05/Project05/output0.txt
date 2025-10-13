@@ -1,0 +1,213 @@
+
+:~Enter a pet names file ~:Names.csv
+
+:~Enter a Diet record file ~:diet_0.csv
+
+:~Enter a Exercise record file ~:xxx
+Error. File does not exist
+
+:~Enter a Exercise record file ~:exercise_0.csv
+
+:~Enter a Health record file ~:health_0.csv
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:1
+
+--------------
+Maximum exercise time: 378 minutes
+Pet name(s): Rex
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:2
+
+:~Enter a pet name ~:Didi
+Invalid name or does not exist
+
+:~Enter a pet name ~:Kiki
+
+--------------
+Diet:
+	Meal frequency: 3
+	Nutritional Balance:
+		Protein: High
+		Fat: High
+
+--------------
+Exercise:
+	Walk(s): 4
+	Play time: 60
+
+--------------
+Health:
+	Vaccines taken: 3
+	Injury reports: None
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:3
+
+--------------
+The number of pets with abnormal diet conditions: 7
+	Lulu:
+	 Meal: 0, Protein: Low, Fat: High
+	Magician:
+	 Meal: 0, Protein: Low, Fat: High
+	Chase:
+	 Meal: 0, Protein: Low, Fat: High
+	Ivy:
+	 Meal: 1, Protein: Low, Fat: High
+	Juno:
+	 Meal: 1, Protein: Low, Fat: High
+	Bentley:
+	 Meal: 0, Protein: Low, Fat: High
+	Misty:
+	 Meal: 1, Protein: Low, Fat: High
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:4
+
+--------------
+Rex: 378
+Shadows: 350
+Finnius: 347
+Ace: 347
+Apollo13: 347
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:5
+
+--------------
+Burn: Bear, Dixie, Lexi, Lulu, Millie, Ruby, Volt
+Bite: Cody, Frankie, Ollie, Oscar, Scout, Teddy, Winston
+Cut: Apollo, Fennel, Gracie, Hunter, Juno, Koda, Poppy, Tilly
+Scratch: Bandit, Baxter, Bentley, Ginger, Jack, Josie, Pillow, Sadie, Sam, Stella
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:6
+
+:~Enter the vaccine number ~:-1
+Invalid input
+
+:~Enter the vaccine number ~:9
+Invalid input
+
+:~Enter the vaccine number ~:3
+Number of pet(s): 114
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:6
+
+:~Enter the vaccine number ~:2
+Number of pet(s): 86
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:7
+
+--------------
+Rex: 438
+Finnius: 407
+Apollo13: 407
+Shadows: 400
+Layla: 398
+Ace: 387
+Hanks: 386
+Roxy: 383
+Harlem: 381
+Lucy: 377
+
+    Menu : 
+        1: The maximum exercise time a pet received
+        2: Individual pet information
+        3: The pets with abnormal diet conditions
+        4: Top 5 pets in exercise time
+        5: The pets with injury records
+        6: The number of pets who took vaccines no more than X
+        7: Top 10 pets in overall score ranking
+        X: Exit
+
+
+:~Input a choice ~:xxxx
+Error: Invalid choice. Please enter a valid choice.
+
+:~Input a choice ~:X
+
+Thank you and Good Bye
